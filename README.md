@@ -1,71 +1,83 @@
-Desafio de Desenvolvimento - Gerenciamento Financeiro
-Descrição
-Este projeto tem como objetivo fornecer uma interface para o gerenciamento de movimentações financeiras. Nele, o usuário pode realizar ações como cadastrar movimentações, editar informações e visualizar o dashboard.
+# Desafio de Desenvolvimento - Gerenciamento Financeiro 💻💰
 
-O projeto foi desenvolvido utilizando o framework Vue.js para o front-end e foi estruturado para rodar localmente com funcionalidades básicas de autenticação. No entanto, o back-end não foi implementado devido a limitações de tempo e experiência.
+## Descrição 📜
+Este projeto tem como objetivo fornecer uma interface para o **gerenciamento de movimentações financeiras**. Nele, o usuário pode realizar ações como cadastrar movimentações, editar informações e visualizar o dashboard. 📊
 
-Tecnologias Utilizadas
-Vue.js : Framework JavaScript para construir a interface do usuário.
-Vue Router : Para gerenciar a navegação entre páginas.
-HTML/CSS : Para estruturação e estilo das páginas.
-Armazenamento Local : Para armazenamento de dados no navegador (ex: token de autenticação).
-Como Rodar o Projeto
+O projeto foi desenvolvido utilizando o framework **Vue.js** para o front-end e foi estruturado para rodar localmente com funcionalidades básicas de autenticação. No entanto, o **back-end não foi implementado** devido a limitações de tempo e experiência. ⏳
+
+## Tecnologias Utilizadas 🛠️
+- **Vue.js**: Framework JavaScript para construir a interface do usuário. ⚡
+- **Vue Router**: Para gerenciar a navegação entre páginas. 🔄
+- **HTML/CSS**: Para estruturação e estilo das páginas. 🎨
+- **Armazenamento Local**: Para armazenamento de dados no navegador (ex: token de autenticação). 🔐
+
+## Como Rodar o Projeto 🚀
+
 Para rodar o projeto em sua máquina local, siga os seguintes passos:
 
-Clonar ou repositório:
+1. **Clonar o repositório**:
 
-bater
+    ```bash
+    git clone https://github.com/talisson1999/Gerenciamentos.git
+    ```
 
-Copiar
+2. **Acesse a pasta do projeto**:
 
-Editar
-git clone https://github.com/talisson1999/Gerenciamentos.git
-Acesse a pasta do projeto:
+    ```bash
+    cd Gerenciamentos
+    ```
 
-bater
+3. **Instalar as dependências**:
 
-Copiar
+    ```bash
+    npm install
+    ```
 
-Editar
-cd Gerenciamentos
-Instalar as dependências:
+4. **Iniciar o servidor de desenvolvimento**:
 
-bater
+    ```bash
+    npm run serve
+    ```
 
-Copiar
+5. **Acesse o aplicativo no navegador**:
 
-Editar
-npm install
-Iniciar o servidor de desenvolvimento:
+    ```bash
+    http://localhost:8080
+    ```
 
-bater
+## Detalhes do Desenvolvimento 💻
 
-Copiar
+### Front-end 🖥️
+Uma interface foi construída utilizando o **Vue.js**. A navegação entre as páginas é gerenciada pelo **Vue Router**, com autenticação simples utilizando o **Armazenamento Local** para armazenar o token. 🔑
 
-Editar
-npm run serve
-Acesse o aplicativo no navegador:
+### Back-end 🔒
+Tentei implementar uma parte do **back-end**, mas devido a limitações de tempo e experiência, não consegui finalizar. O projeto é **somente o front-end** até o momento. 👨‍💻
 
-arduino
+## Tempo de Desenvolvimento ⏰
+Como trabalho e cuido de um filho, consegui dedicar entre **1 a 2 horas por dia** ao projeto. Apesar de ter sido iniciado no **Vue.js** e ter encontrado dificuldades, busquei aprender durante o processo. 💪
 
-Copiar
+## Desafios Enfrentados 🚧
 
-Editar
-http://localhost:8080
-Detalhes do Desenvolvimento
-Front-end : Uma interface foi construída utilizando o Vue.js. A navegação entre as páginas é gerenciada pelo Vue Router, com autenticação simples utilizando o Armazenamento Local para armazenar o token.
-Back-end : Tentei implementar uma parte do back-end, mas devido a limitações de tempo e experiência, não consegui finalizar. O projeto é apenas o front-end até o momento.
-Tempo de Desenvolvimento : Como trabalho e cuidado de um filho, consegui dedicar de 1 a 2 horas por dia ao projeto. Apesar de ter sido iniciado no Vue.js e ter encontrado dificuldades, busquei aprender durante o processo.
-Desafios Enfrentados
-Durante o desenvolvimento deste projeto, enfrentamos alguns desafios importantes, especialmente em relação ao back-end. Tentei implementar o back-end de diversas formas, mas, como não tinha experiência prévia, não consegui concluir essa parte a tempo. Contudo, com o tempo disponível, foquei em aprimorar a parte front-end, utilizando Vue.js, e aprendi muito sobre o framework enquanto avançava no projeto.
-O Que Foi Concluído
-Páginas de login, cadastro e dashboard funcionando.
-Lógica de autenticação utilizando armazenamento local.
-Navegação entre páginas protegidas e públicas com Vue Router.
-Função básica de gerenciamento de movimentações financeiras.
-Próximos Passos
-Finalize a parte de back-end.
-Implemente autenticação real com um serviço de back-end.
-Melhorar a experiência do usuário e o design da aplicação.
-Conclusão
-Embora tenha dificuldades enfrentadas, este projeto foi uma ótima oportunidade de aprendizado. Agradeço pela compreensão sobre as limitações de tempo e experiência, e espero que o que foi feito até agora seja útil para o desafio.
+- **Vue.js**: Como eu estava começando a trabalhar com Vue.js, levei um tempo para entender como usar o framework corretamente. ⏳
+- **Back-end**: A parte do back-end foi um grande desafio, pois ainda estou adquirindo experiência nessa área e não consegui implementá-la. 🔙
+- **Limitações de Tempo**: Com as responsabilidades de trabalho e cuidados com meu filho, a quantidade de horas diárias disponíveis para o desenvolvimento foi limitada. 👶💼
+
+## O Que Foi Concluído ✅
+
+- Páginas de **login**, **cadastro** e **dashboard** funcionando.
+- Lógica de **autenticação** utilizando armazenamento local.
+- Navegação entre páginas protegidas e públicas com **Vue Router**.
+- Função básica de **gerenciamento de movimentações financeiras**.
+
+## Próximos Passos 🚀
+
+- Finalizar a parte de **back-end**.
+- Implementar **autenticação real** com um serviço de back-end.
+- Melhorar a **experiência do usuário** e o **design** da aplicação.
+
+## Conclusão 🎯
+Embora tenha enfrentado dificuldades, este projeto foi uma ótima oportunidade de aprendizado. Agradeço pela compreensão sobre as limitações de tempo e experiência, e espero que o que foi feito até agora seja útil para o desafio. 😊
+
+---
+
+Obrigado por avaliar meu projeto! 💙
