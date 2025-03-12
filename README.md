@@ -1,9 +1,13 @@
 # Desafio de Desenvolvimento - Gerenciamento Financeiro 💻💰
 
 ## Descrição 📜
-Este projeto tem como objetivo fornecer uma interface para o **gerenciamento de movimentações financeiras**. Nele, o usuário pode realizar ações como cadastrar movimentações, editar informações e visualizar o dashboard. 📊
 
-O projeto foi desenvolvido utilizando o framework **Vue.js** para o front-end e foi estruturado para rodar localmente com funcionalidades básicas de autenticação. No entanto, o **back-end não foi implementado** devido a limitações de tempo e experiência. ⏳
+Este projeto tem como objetivo fornecer uma interface para o **gerenciamento de movimentações financeiras**. Nele, o usuário pode realizar ações como **cadastrar movimentações**, **editar informações** e visualizar o **dashboard**. 📊
+
+O projeto foi desenvolvido utilizando o framework **Vue.js** para o front-end e foi estruturado para rodar localmente com funcionalidades básicas de autenticação. Além disso, o aplicativo foi desenvolvido de forma **responsiva**, garantindo uma boa experiência de usuário em diferentes dispositivos (desktop, tablet e celular). 🌐 Isso foi implementado utilizando **media queries no CSS** para ajustar a interface conforme o tamanho da tela.
+
+No entanto, o **back-end não foi implementado** devido a limitações de tempo e experiência. ⏳
+
 
 ## Tecnologias Utilizadas 🛠️
 - **Vue.js**: Framework JavaScript para construir a interface do usuário. ⚡
